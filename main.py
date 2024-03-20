@@ -16,12 +16,16 @@ def main():
     print("------------------------------------")
 
     while check:
-
-        response = myclient.chat.completions.create(
-            model="gpt-3.5-turbo-0125",
-            messages=message,
-            temperature=0.3,
-        )
+        try:
+            response = myclient.chat.completions.create(
+                model="gpt-3.5-turbo-0125",
+                messages=message,
+                temperature=0.3,
+            )
+        except Exception as e:
+            print("Mama-Mia! There is something wrong with your key! I'm out of here!")
+            print("Exception:",e)
+            break
 
         reply = response.choices[0].message.content
         print("Super Mario : ", reply)
