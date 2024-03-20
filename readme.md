@@ -42,4 +42,4 @@ python main.py
 
 ## Glimpses from the game
 
-![WindowsTerminal_e7K3rwcPcz.png](..%2F..%2F..%2F..%2F..%2FDocuments%2FShareX%2FScreenshots%2F2024-03%2FWindowsTerminal_e7K3rwcPcz.png)
+![WindowsTerminal_e7K3rwcPcz](https://github.com/aurorachilles/Super_Mario_chatbot/assets/85650409/b590627c-5a4b-435b-9ec5-4c7ad1487387)
